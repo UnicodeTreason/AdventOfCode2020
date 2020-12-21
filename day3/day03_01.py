@@ -52,13 +52,7 @@ def find_path(data):
                 posx += 3
                 posy += 1
                 if line[x] == '#':
-                    # print('X', end='')
                     trees += 1
-                # else:
-                    # print('O', end='')
-            # else:
-                # print(line[x], end='')
-        # print()
 
     return trees
 
